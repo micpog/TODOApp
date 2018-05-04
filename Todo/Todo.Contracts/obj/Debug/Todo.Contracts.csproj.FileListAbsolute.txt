@@ -1,0 +1,15 @@
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo.Data\Todo.Contracts\bin\Debug\Todo.Contracts.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo.Data\Todo.Contracts\bin\Debug\Todo.Contracts.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo.Data\Todo.Contracts\obj\Debug\Todo.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo.Data\Todo.Contracts\obj\Debug\Todo.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo.Data\Todo.Contracts\obj\Debug\Todo.Contracts.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo.Data\Todo.Contracts\obj\Debug\Todo.Contracts.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\bin\Debug\Todo.Contracts.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\bin\Debug\Todo.Contracts.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.csprojResolveAssemblyReference.cache
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\bin\Debug\Autofac.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\bin\Debug\Autofac.xml
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.csproj.CopyComplete
