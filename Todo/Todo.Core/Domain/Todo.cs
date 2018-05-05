@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Todo.Data.Core.Domain
+namespace Todo.Core.Domain
 {
     public class Todo
     {
@@ -8,9 +8,9 @@ namespace Todo.Data.Core.Domain
 
         public string Description { get; set; }
 
-        public string StartDate { get; set; }
+        public DateTime? StartDate { get; set; }
 
-        public string EndDate { get; set; }
+        public DateTime? EndDate { get; set; }
 
         public bool IsCompleted { get; set; }
     }

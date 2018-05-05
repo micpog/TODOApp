@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq.Expressions;
 
-namespace Todo.Data.Core.Repositories
+namespace Todo.Core.Repositories
 {
     public interface IRepository<TEntity> where TEntity : class
     {

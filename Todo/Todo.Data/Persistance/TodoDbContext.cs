@@ -2,24 +2,14 @@
 
 namespace Todo.Data.Persistance
 {
-    public class TodoDbContext : DbContext, ITodoDbContext
+    public class TodoDbContext : DbContext
     {
         public TodoDbContext() 
-            : base("name=TodoDb")
+            : base("name=Todo")
         {
+            Configuration.LazyLoadingEnabled = true;
         }
 
-        public DbSet<Core.Domain.Todo> Todos { get; set; }
-        public void SaveChanges()
-        {
-            throw new System.NotImplementedException();
-        }
-    }
-
-    public interface ITodoDbContext
-    {
-        DbSet<TEntity> Set<TEntity>() where TEntity : class;
-        void Dispose();
-        void SaveChanges();
+        public DbSet<Todo.Core.Domain.Todo> Todos { get; set; }
     }
 }

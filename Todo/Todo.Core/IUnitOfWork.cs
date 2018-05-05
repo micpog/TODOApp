@@ -5,7 +5,7 @@ namespace Todo.Core
 {
     public interface IUnitOfWork : IDisposable
     {
-        ITodoRepository Todos { get; }
+        IRepository<Domain.Todo> Todos { get; }
         int Complete();
     }
 }

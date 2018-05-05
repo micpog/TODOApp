@@ -1,20 +1,21 @@
 ﻿using System;
 using Todo.Core;
 using Todo.Core.Repositories;
+using Todo.Data.Persistance.Repositories;
 
 namespace Todo.Data.Persistance
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private readonly ITodoDbContext _context;
+        private readonly TodoDbContext _context;
 
-        public UnitOfWork(ITodoDbContext context, ITodoRepository todoRepository)
+        public UnitOfWork(TodoDbContext context)
         {
             _context = context;
-            Todos = todoRepository;
+            Todos = new Repository<Todo.Core.Domain.Todo>(_context);
         }
 
-        public ITodoRepository Todos { get; }
+        public IRepository<Todo.Core.Domain.Todo> Todos { get; }
 
         public void Dispose()
         {
@@ -23,7 +24,7 @@ namespace Todo.Data.Persistance
 
         public int Complete()
         {
-            throw new NotImplementedException();
+            return _context.SaveChanges();
         }
     }
 }

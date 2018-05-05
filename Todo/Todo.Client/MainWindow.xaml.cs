@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Todo.Data.Persistance;
 
 namespace Todo.Client
 {
@@ -20,9 +22,17 @@ namespace Todo.Client
     /// </summary>
     public partial class MainWindow : Window
     {
+        private TodoDbContext _context = new TodoDbContext();
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        protected override void OnClosing(CancelEventArgs e)
+        {
+            base.OnClosing(e);
+            _context.Dispose();
         }
     }
 }

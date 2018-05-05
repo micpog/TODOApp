@@ -13,10 +13,10 @@ namespace Todo.Contracts
         public string Description { get; set; }
 
         [DataMember]
-        public string StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
         [DataMember]
-        public string EndDate { get; set; }
+        public DateTime EndDate { get; set; }
 
         [DataMember]
         public bool IsCompleted { get; set; }

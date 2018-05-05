@@ -55,9 +55,16 @@
     <Compile Include="Migrations\201804092146016_InitialTodoModel.Designer.cs">
       <DependentUpon>201804092146016_InitialTodoModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201805041237404_Seed data.cs" />
+    <Compile Include="Migrations\201805041237404_Seed data.Designer.cs">
+      <DependentUpon>201805041237404_Seed data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201805051814153_MadeDateTimesNullable.cs" />
+    <Compile Include="Migrations\201805051814153_MadeDateTimesNullable.Designer.cs">
+      <DependentUpon>201805051814153_MadeDateTimesNullable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistance\Repositories\Repository.cs" />
-    <Compile Include="Persistance\Repositories\TodoRepository.cs" />
     <Compile Include="Persistance\UnitOfWork.cs" />
     <Compile Include="Persistance\TodoDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +78,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201804092146016_InitialTodoModel.resx">
       <DependentUpon>201804092146016_InitialTodoModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805041237404_Seed data.resx">
+      <DependentUpon>201805041237404_Seed data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201805051814153_MadeDateTimesNullable.resx">
+      <DependentUpon>201805051814153_MadeDateTimesNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

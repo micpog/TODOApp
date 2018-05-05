@@ -30,3 +30,5 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.C
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\Todo.Data.dll.config
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\Autofac.xml
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\EntityFramework.xml
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\EntityFramework.SqlServer.xml

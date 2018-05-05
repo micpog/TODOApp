@@ -12,3 +12,12 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.T
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\obj\Debug\Todo.Tests.csproj.CopyComplete
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\obj\Debug\Todo.Tests.dll
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\obj\Debug\Todo.Tests.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Todo.Core.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Todo.Data.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Autofac.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Todo.Core.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Todo.Data.pdb
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Todo.Data.dll.config
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Autofac.xml
+C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\EntityFramework.xml
