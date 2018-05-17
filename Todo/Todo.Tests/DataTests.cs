@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using NSubstitute;
 using NUnit.Framework;
 using Todo.Data.Persistance.Repositories;
-using Todo = Todo.Core.Domain.Todo;
 
 namespace Todo.Tests
 {

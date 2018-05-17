@@ -5,7 +5,6 @@ using System.Linq;
 using System.Windows.Controls;
 using Todo.Core;
 using Todo.Data.Persistance;
-using Todo = Todo.Core.Domain.Todo;
 
 namespace Todo.Client.Todos
 {

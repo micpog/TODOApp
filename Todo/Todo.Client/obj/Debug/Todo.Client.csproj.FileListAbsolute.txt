@@ -32,3 +32,36 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.C
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\EntityFramework.xml
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Client\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Client.exe.config
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Client.exe
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Client.pdb
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Autofac.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\EntityFramework.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Contracts.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Core.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Data.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Proxies.dll
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Contracts.pdb
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Core.pdb
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Data.pdb
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Data.dll.config
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Todo.Proxies.pdb
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\Autofac.xml
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\EntityFramework.xml
+C:\Git\Todo\Todo\Todo.Client\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.csprojResolveAssemblyReference.cache
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todos\TodosView.baml
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\MainWindow.g.cs
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todos\TodosView.g.cs
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\App.g.cs
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client_MarkupCompile.cache
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client_MarkupCompile.lref
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\MainWindow.baml
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.g.resources
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.Properties.Resources.resources
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.csproj.GenerateResource.Cache
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.csproj.CoreCompileInputs.cache
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.exe
+C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.pdb

@@ -21,3 +21,25 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.T
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Todo.Data.dll.config
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\Autofac.xml
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Tests\bin\Debug\EntityFramework.xml
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Tests.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Tests.pdb
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Castle.Core.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\NSubstitute.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\nunit.framework.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Core.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Data.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Autofac.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\EntityFramework.dll
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Core.pdb
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Data.pdb
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Todo.Data.dll.config
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\nunit.framework.pdb
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\nunit.framework.xml
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\Autofac.xml
+C:\Git\Todo\Todo\Todo.Tests\bin\Debug\EntityFramework.xml
+C:\Git\Todo\Todo\Todo.Tests\obj\Debug\Todo.Tests.csprojResolveAssemblyReference.cache
+C:\Git\Todo\Todo\Todo.Tests\obj\Debug\Todo.Tests.csproj.CoreCompileInputs.cache
+C:\Git\Todo\Todo\Todo.Tests\obj\Debug\Todo.Tests.dll
+C:\Git\Todo\Todo\Todo.Tests\obj\Debug\Todo.Tests.pdb

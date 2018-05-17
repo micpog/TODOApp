@@ -13,3 +13,11 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.C
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\bin\Debug\Autofac.dll
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\bin\Debug\Autofac.xml
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.csproj.CopyComplete
+C:\Git\Todo\Todo\Todo.Contracts\bin\Debug\Todo.Contracts.dll
+C:\Git\Todo\Todo\Todo.Contracts\bin\Debug\Todo.Contracts.pdb
+C:\Git\Todo\Todo\Todo.Contracts\bin\Debug\Autofac.dll
+C:\Git\Todo\Todo\Todo.Contracts\bin\Debug\Autofac.xml
+C:\Git\Todo\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.csprojResolveAssemblyReference.cache
+C:\Git\Todo\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.csproj.CoreCompileInputs.cache
+C:\Git\Todo\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.dll
+C:\Git\Todo\Todo\Todo.Contracts\obj\Debug\Todo.Contracts.pdb

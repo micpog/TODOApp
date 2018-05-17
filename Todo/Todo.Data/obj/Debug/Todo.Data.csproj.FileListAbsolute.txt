@@ -38,3 +38,24 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.D
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Data\bin\Debug\Autofac.xml
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Data\obj\Debug\Todo.Data.Migrations.Seeddata.resources
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Data\obj\Debug\Todo.Data.Migrations.MadeDateTimesNullable.resources
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Data.dll.config
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Data.dll
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Data.pdb
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Autofac.dll
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.dll
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Contracts.dll
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Core.dll
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Contracts.pdb
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Todo.Core.pdb
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\Autofac.xml
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.xml
+C:\Git\Todo\Todo\Todo.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.csprojResolveAssemblyReference.cache
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.Migrations.InitialTodoModel.resources
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.Migrations.Seeddata.resources
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.Migrations.MadeDateTimesNullable.resources
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.csproj.GenerateResource.Cache
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.csproj.CoreCompileInputs.cache
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.dll
+C:\Git\Todo\Todo\Todo.Data\obj\Debug\Todo.Data.pdb

@@ -32,3 +32,20 @@ C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.S
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Services\obj\Debug\Todo.Services.pdb
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Services\bin\Debug\Autofac.dll
 C:\Users\Misiek\Desktop\Studia\II Semestr\Programowanie\todo\TODOApp\Todo\Todo.Services\bin\Debug\Autofac.xml
+C:\Git\Todo\Todo\Todo.Services\obj\Debug\Todo.Services.csprojResolveAssemblyReference.cache
+C:\Git\Todo\Todo\Todo.Services\obj\Debug\Todo.Services.csproj.CoreCompileInputs.cache
+C:\Git\Todo\Todo\Todo.Services\obj\Debug\Todo.Services.dll
+C:\Git\Todo\Todo\Todo.Services\obj\Debug\Todo.Services.pdb
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Services.dll
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Services.pdb
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Autofac.dll
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Contracts.dll
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Core.dll
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Data.dll
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\EntityFramework.dll
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Contracts.pdb
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Core.pdb
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Data.pdb
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Todo.Data.dll.config
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\Autofac.xml
+C:\Git\Todo\Todo\Todo.Services\bin\Debug\EntityFramework.xml
