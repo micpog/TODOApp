@@ -19,3 +19,5 @@ C:\Git\Todo\Todo\Todo.Proxies\obj\Debug\Todo.Proxies.csprojResolveAssemblyRefere
 C:\Git\Todo\Todo\Todo.Proxies\obj\Debug\Todo.Proxies.csproj.CoreCompileInputs.cache
 C:\Git\Todo\Todo\Todo.Proxies\obj\Debug\Todo.Proxies.dll
 C:\Git\Todo\Todo\Todo.Proxies\obj\Debug\Todo.Proxies.pdb
+C:\Users\mpogorzelski\Documents\Stuff\Todo\Todo.Proxies\obj\Debug\Todo.Proxies.csprojAssemblyReference.cache
+C:\Users\mpogorzelski\Documents\Stuff\Todo\Todo.Proxies\obj\Debug\Todo.Proxies.csproj.CoreCompileInputs.cache

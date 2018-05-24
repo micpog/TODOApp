@@ -65,3 +65,7 @@ C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.csproj.GenerateResource.Cache
 C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.csproj.CoreCompileInputs.cache
 C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.exe
 C:\Git\Todo\Todo\Todo.Client\obj\Debug\Todo.Client.pdb
+C:\Users\mpogorzelski\Documents\Stuff\Todo\Todo.Client\obj\Debug\Todo.Client.csprojAssemblyReference.cache
+C:\Users\mpogorzelski\Documents\Stuff\Todo\Todo.Client\obj\Debug\App.g.cs
+C:\Users\mpogorzelski\Documents\Stuff\Todo\Todo.Client\obj\Debug\Todo.Client_MarkupCompile.cache
+C:\Users\mpogorzelski\Documents\Stuff\Todo\Todo.Client\obj\Debug\Todo.Client_MarkupCompile.lref

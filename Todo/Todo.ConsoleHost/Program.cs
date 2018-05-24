@@ -2,9 +2,7 @@
 using System.ServiceModel;
 using Autofac;
 using Autofac.Integration.Wcf;
-using Todo.Contracts;
 using Todo.Data;
-using Todo.Services;
 
 namespace Todo.ConsoleHost
 {
@@ -13,20 +11,18 @@ namespace Todo.ConsoleHost
         static void Main(string[] args)
         {
             var containerBuilder = new ContainerBuilder();
-            containerBuilder.RegisterModule<ServicesModule>();
+            containerBuilder.RegisterModule<ServiceModule>();
             containerBuilder.RegisterModule<DataModule>();
 
             using (var container = containerBuilder.Build())
             {
-                var host = new ServiceHost(typeof(TodoService));
+                var host = new ServiceHost(typeof(TodosService));
                 host.AddDependencyInjectionBehavior<ITodoService>(container);
                 host.Open();
                 Console.WriteLine("Click Enter to stop the service.");
                 Console.ReadLine();
                 host.Close();
             }
-
-
         }
     }
 }

@@ -7,13 +7,13 @@ using Todo.Core.Repositories;
 
 namespace Todo.Data.Persistance.Repositories
 {
-    public class Repository<TEntity> : IRepository<TEntity> where TEntity : class
+    public class Repository<TEntity> : IDisposable, IRepository<TEntity> where TEntity : class
     {
         protected readonly TodoDbContext Context;
 
-        public Repository(TodoDbContext context)
+        public Repository()
         {
-            Context = context;
+            Context = new TodoDbContext();
         }
 
         public TEntity Get(Guid id)
@@ -49,6 +49,11 @@ namespace Todo.Data.Persistance.Repositories
         public void RemoveRange(IEnumerable<TEntity> entities)
         {
             Context.Set<TEntity>().RemoveRange(entities);
+        }
+
+        public void Dispose()
+        {
+            Context?.Dispose();
         }
     }
 }

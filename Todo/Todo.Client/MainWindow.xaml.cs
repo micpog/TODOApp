@@ -22,17 +22,9 @@ namespace Todo.Client
     /// </summary>
     public partial class MainWindow : Window
     {
-        private TodoDbContext _context = new TodoDbContext();
-
         public MainWindow()
         {
-            InitializeComponent();
-        }
-
-        protected override void OnClosing(CancelEventArgs e)
-        {
-            base.OnClosing(e);
-            _context.Dispose();
+            DataContext = new MainWindowViewModel();
         }
     }
 }

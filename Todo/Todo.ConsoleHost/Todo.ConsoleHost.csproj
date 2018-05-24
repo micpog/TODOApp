@@ -61,13 +61,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Todo.Contracts\Todo.Contracts.csproj">
-      <Project>{64513434-c11c-4054-9967-11f8f5ac2f01}</Project>
-      <Name>Todo.Contracts</Name>
+    <ProjectReference Include="..\..\Todo.Services\Todo.Services.csproj">
+      <Project>{08131896-30EA-40BD-881B-E77ACD10C4DC}</Project>
+      <Name>Todo.Services</Name>
     </ProjectReference>
     <ProjectReference Include="..\Todo.Core\Todo.Core.csproj">
       <Project>{f923fa99-9c60-400e-91d0-54c4b23084c7}</Project>
@@ -76,10 +78,6 @@
     <ProjectReference Include="..\Todo.Data\Todo.Data.csproj">
       <Project>{29adccec-b08d-417b-b67c-37bd6bd79550}</Project>
       <Name>Todo.Data</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Todo.Services\Todo.Services.csproj">
-      <Project>{61732990-16eb-4ba6-9003-f05eea4128d8}</Project>
-      <Name>Todo.Services</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

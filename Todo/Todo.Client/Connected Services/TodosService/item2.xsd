@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:tns="http://schemas.datacontract.org/2004/07/Todo.Core.Domain" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Todo.Core.Domain" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:2112/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Todo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="EndDate" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Id" type="ser:guid" />
+      <xs:element minOccurs="0" name="IsCompleted" type="xs:boolean" />
+      <xs:element minOccurs="0" name="StartDate" nillable="true" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Todo" nillable="true" type="tns:Todo" />
+  <xs:complexType name="ArrayOfTodo">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Todo" nillable="true" type="tns:Todo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTodo" nillable="true" type="tns:ArrayOfTodo" />
+</xs:schema>

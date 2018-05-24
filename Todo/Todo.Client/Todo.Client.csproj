@@ -66,9 +66,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="ClientModule.cs" />
-    <Compile Include="Todos\TodosView.xaml.cs">
-      <DependentUpon>TodosView.xaml</DependentUpon>
+    <Compile Include="Connected Services\TodosService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -82,12 +83,9 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Todos\TodosView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainWindowViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -105,6 +103,16 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="Connected Services\TodosService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\TodosService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\TodosService\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\TodosService\TodosService.wsdl" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\Todo.Core.Domain.Todo.datasource" />
     <None Include="Properties\Settings.settings">
@@ -116,10 +124,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Todo.Contracts\Todo.Contracts.csproj">
-      <Project>{64513434-c11c-4054-9967-11f8f5ac2f01}</Project>
-      <Name>Todo.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Todo.Core\Todo.Core.csproj">
       <Project>{f923fa99-9c60-400e-91d0-54c4b23084c7}</Project>
       <Name>Todo.Core</Name>
@@ -128,10 +132,27 @@
       <Project>{29ADCCEC-B08D-417B-B67C-37BD6BD79550}</Project>
       <Name>Todo.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Todo.Proxies\Todo.Proxies.csproj">
-      <Project>{e333646e-af77-4a89-b769-2261f59e5d4b}</Project>
-      <Name>Todo.Proxies</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\TodosService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TodosService\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TodosService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TodosService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\TodosService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

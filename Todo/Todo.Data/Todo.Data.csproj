@@ -51,21 +51,20 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataModule.cs" />
-    <Compile Include="Migrations\201804092146016_InitialTodoModel.cs" />
-    <Compile Include="Migrations\201804092146016_InitialTodoModel.Designer.cs">
-      <DependentUpon>201804092146016_InitialTodoModel.cs</DependentUpon>
+    <Compile Include="Migrations\InitialTodoModel.cs" />
+    <Compile Include="Migrations\InitialTodoModel.Designer.cs">
+      <DependentUpon>InitialTodoModel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805041237404_Seed data.cs" />
-    <Compile Include="Migrations\201805041237404_Seed data.Designer.cs">
-      <DependentUpon>201805041237404_Seed data.cs</DependentUpon>
+    <Compile Include="Migrations\Seeddata.cs" />
+    <Compile Include="Migrations\Seeddata.Designer.cs">
+      <DependentUpon>Seeddata.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201805051814153_MadeDateTimesNullable.cs" />
-    <Compile Include="Migrations\201805051814153_MadeDateTimesNullable.Designer.cs">
-      <DependentUpon>201805051814153_MadeDateTimesNullable.cs</DependentUpon>
+    <Compile Include="Migrations\MadeDateTimesNullable.cs" />
+    <Compile Include="Migrations\MadeDateTimesNullable.Designer.cs">
+      <DependentUpon>MadeDateTimesNullable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistance\Repositories\Repository.cs" />
-    <Compile Include="Persistance\UnitOfWork.cs" />
     <Compile Include="Persistance\TodoDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -76,24 +75,20 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201804092146016_InitialTodoModel.resx">
-      <DependentUpon>201804092146016_InitialTodoModel.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\InitialTodoModel.resx">
+      <DependentUpon>InitialTodoModel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805041237404_Seed data.resx">
-      <DependentUpon>201805041237404_Seed data.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\Seeddata.resx">
+      <DependentUpon>Seeddata.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201805051814153_MadeDateTimesNullable.resx">
-      <DependentUpon>201805051814153_MadeDateTimesNullable.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\MadeDateTimesNullable.resx">
+      <DependentUpon>MadeDateTimesNullable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Persistance\EntityConfigurations\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Todo.Contracts\Todo.Contracts.csproj">
-      <Project>{64513434-C11C-4054-9967-11F8F5AC2F01}</Project>
-      <Name>Todo.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Todo.Core\Todo.Core.csproj">
       <Project>{f923fa99-9c60-400e-91d0-54c4b23084c7}</Project>
       <Name>Todo.Core</Name>

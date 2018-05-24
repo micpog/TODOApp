@@ -49,13 +49,13 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Todo.Contracts\Todo.Contracts.csproj">
-      <Project>{64513434-c11c-4054-9967-11f8f5ac2f01}</Project>
-      <Name>Todo.Contracts</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\Todo.Core\Todo.Core.csproj">
+      <Project>{F923FA99-9C60-400E-91D0-54C4B23084C7}</Project>
+      <Name>Todo.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
