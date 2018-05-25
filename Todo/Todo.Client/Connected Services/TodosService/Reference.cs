@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Todo.Client.Connected_Services.TodosService {
+namespace Todo.Client.TodosService {
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -32,15 +32,21 @@ namespace Todo.Client.Connected_Services.TodosService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITodoService/GetPendingTodos", ReplyAction="http://tempuri.org/ITodoService/GetPendingTodosResponse")]
         System.Threading.Tasks.Task<Todo.Core.Domain.Todo[]> GetPendingTodosAsync(bool pendingOnly);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITodoService/SaveAllChanges", ReplyAction="http://tempuri.org/ITodoService/SaveAllChangesResponse")]
+        void SaveAllChanges();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITodoService/SaveAllChanges", ReplyAction="http://tempuri.org/ITodoService/SaveAllChangesResponse")]
+        System.Threading.Tasks.Task SaveAllChangesAsync();
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ITodoServiceChannel : ITodoService, System.ServiceModel.IClientChannel {
+    public interface ITodoServiceChannel : Todo.Client.TodosService.ITodoService, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class TodoServiceClient : System.ServiceModel.ClientBase<ITodoService>, ITodoService {
+    public partial class TodoServiceClient : System.ServiceModel.ClientBase<Todo.Client.TodosService.ITodoService>, Todo.Client.TodosService.ITodoService {
         
         public TodoServiceClient() {
         }
@@ -83,6 +89,14 @@ namespace Todo.Client.Connected_Services.TodosService {
         
         public System.Threading.Tasks.Task<Todo.Core.Domain.Todo[]> GetPendingTodosAsync(bool pendingOnly) {
             return base.Channel.GetPendingTodosAsync(pendingOnly);
+        }
+        
+        public void SaveAllChanges() {
+            base.Channel.SaveAllChanges();
+        }
+        
+        public System.Threading.Tasks.Task SaveAllChangesAsync() {
+            return base.Channel.SaveAllChangesAsync();
         }
     }
 }

@@ -15,5 +15,8 @@ namespace Services
 
         [OperationContract(Name = "GetPendingTodos")]
         IEnumerable<Todo.Core.Domain.Todo> GetPendingTodos(bool pendingOnly);
+
+        [OperationContract]
+        void SaveAllChanges();
     }
 }

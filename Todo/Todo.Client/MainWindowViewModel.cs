@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
+﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Configuration;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Globalization;
+using System.Runtime.CompilerServices;
+using System.Threading;
 using System.Windows;
-using Todo.Client.Connected_Services.TodosService;
+using System.Windows.Input;
+using Todo.Client.Annotations;
+using Todo.Client.TodosService;
 
 namespace Todo.Client
 {
-    public class MainWindowViewModel 
+    public class MainWindowViewModel : INotifyPropertyChanged
     {
-        public ObservableCollection<Core.Domain.Todo> Todos { get; set; }
+        private ObservableCollection<Core.Domain.Todo> _todos;
 
         public MainWindowViewModel()
         {
@@ -23,12 +22,43 @@ namespace Todo.Client
             }
         }
 
+        public ICommand SaveCommand { get; private set; }
+
+        public ObservableCollection<Core.Domain.Todo> Todos
+        {
+            get => _todos;
+            set
+            {
+                if (value != null)
+                {
+                    _todos = value;
+                    OnPropertyChanged(nameof(Todos));
+                }
+            }
+        }
+        
         private void LoadTodos()
         {
-            TodoServiceClient service = new TodoServiceClient("BasicHttpBinding_ITodoService");
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-us");
+            TodoServiceClient service = new TodoServiceClient();
             service.Open();
             Todos = new ObservableCollection<Core.Domain.Todo>(service.GetAllTodos());
             service.Close();
+        }
+
+        private void OnSave()
+        {
+            TodoServiceClient service = new TodoServiceClient();
+            service.SaveAllChanges();
+            service.Close();
+        }
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        [NotifyPropertyChangedInvocator]
+        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
     }
 }

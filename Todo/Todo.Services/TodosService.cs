@@ -31,6 +31,11 @@ namespace Services
             throw new NotImplementedException();
         }
 
+        public void SaveAllChanges()
+        {
+            _repository.Save();
+        }
+
         public void Dispose()
         {
             _repository.Dispose();

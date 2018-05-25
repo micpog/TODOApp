@@ -1,0 +1,13 @@
+diff a/Todo/Todo.Client/App.config b/Todo/Todo.Client/App.config	(rejected hunks)
+@@ -16,11 +16,6 @@
+         <binding name="BasicHttpBinding_ITodoService" />
+       </basicHttpBinding>
+     </bindings>
+-    <client>
+-      <endpoint address="http://localhost:2112/Todos" binding="basicHttpBinding"
+-        bindingConfiguration="BasicHttpBinding_ITodoService" contract="TodosService.ITodoService"
+-        name="BasicHttpBinding_ITodoService" />
+-    </client>
+     <services>
+       <service name="Services.TodosService">
+         <host>
