@@ -114,6 +114,7 @@
     </None>
     <None Include="Connected Services\TodosService\TodosService.wsdl" />
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\MainWindowViewModel.datasource" />
     <None Include="Properties\DataSources\Todo.Core.Domain.Todo.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

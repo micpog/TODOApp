@@ -2,6 +2,7 @@
 using System.ServiceModel;
 using Autofac;
 using Autofac.Integration.Wcf;
+using Services;
 using Todo.Data;
 
 namespace Todo.ConsoleHost
