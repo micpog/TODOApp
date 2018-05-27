@@ -51,8 +51,10 @@ namespace Todo.Data.Persistance.Repositories
             Context.Set<TEntity>().RemoveRange(entities);
         }
 
-        public void Save()
+        public void Save(IEnumerable<TEntity> entities)
         {
+            Context.Set<TEntity>().RemoveRange(Context.Set<TEntity>());
+            Context.Set<TEntity>().AddRange(entities);
             Context.SaveChanges();
         }
 

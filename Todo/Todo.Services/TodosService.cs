@@ -31,9 +31,9 @@ namespace Services
             throw new NotImplementedException();
         }
 
-        public void SaveAllChanges()
+        public void SaveAllChanges(IEnumerable<Todo.Core.Domain.Todo> todos)
         {
-            _repository.Save();
+            _repository.Save(todos);
         }
 
         public void Dispose()

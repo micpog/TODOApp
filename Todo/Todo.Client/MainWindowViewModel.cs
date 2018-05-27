@@ -1,6 +1,8 @@
-﻿using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Globalization;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Windows;
@@ -19,10 +21,11 @@ namespace Todo.Client
             if (!DesignerProperties.GetIsInDesignMode(new DependencyObject()))
             {
                 LoadTodos();
+                SaveCommand = new RelayCommand(OnSave);
             }
         }
 
-        public ICommand SaveCommand { get; private set; }
+        public RelayCommand SaveCommand { get; private set; }
 
         public ObservableCollection<Core.Domain.Todo> Todos
         {
@@ -48,8 +51,15 @@ namespace Todo.Client
 
         private void OnSave()
         {
+            foreach (var t in Todos)
+            {
+                if (t.Id == Guid.Empty)
+                {
+                    t.Id = Guid.NewGuid();
+                }
+            }
             TodoServiceClient service = new TodoServiceClient();
-            service.SaveAllChanges();
+            service.SaveAllChanges(Todos.ToArray());
             service.Close();
         }
 

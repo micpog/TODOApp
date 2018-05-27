@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace Todo.Client
 {
-    class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private Action _TargetExecuteMethod;
         private Func<bool> _CanExecuteMethod;
@@ -25,12 +25,22 @@ namespace Todo.Client
 
         public bool CanExecute(object parameter)
         {
-            throw new NotImplementedException();
+            if (_CanExecuteMethod != null)
+            {
+                return _CanExecuteMethod();
+            }
+
+            if (_TargetExecuteMethod != null)
+            {
+                return true;
+            }
+
+            return false;
         }
 
         public void Execute(object parameter)
         {
-            throw new NotImplementedException();
+            _TargetExecuteMethod?.Invoke();
         }
 
         public event EventHandler CanExecuteChanged;

@@ -44,7 +44,9 @@
   </xs:element>
   <xs:element name="SaveAllChanges">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Todo.Core.Domain" minOccurs="0" name="todos" nillable="true" type="q5:ArrayOfTodo" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="SaveAllChangesResponse">

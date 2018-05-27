@@ -34,10 +34,10 @@ namespace Todo.Client.TodosService {
         System.Threading.Tasks.Task<Todo.Core.Domain.Todo[]> GetPendingTodosAsync(bool pendingOnly);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITodoService/SaveAllChanges", ReplyAction="http://tempuri.org/ITodoService/SaveAllChangesResponse")]
-        void SaveAllChanges();
+        void SaveAllChanges(Todo.Core.Domain.Todo[] todos);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ITodoService/SaveAllChanges", ReplyAction="http://tempuri.org/ITodoService/SaveAllChangesResponse")]
-        System.Threading.Tasks.Task SaveAllChangesAsync();
+        System.Threading.Tasks.Task SaveAllChangesAsync(Todo.Core.Domain.Todo[] todos);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -91,12 +91,12 @@ namespace Todo.Client.TodosService {
             return base.Channel.GetPendingTodosAsync(pendingOnly);
         }
         
-        public void SaveAllChanges() {
-            base.Channel.SaveAllChanges();
+        public void SaveAllChanges(Todo.Core.Domain.Todo[] todos) {
+            base.Channel.SaveAllChanges(todos);
         }
         
-        public System.Threading.Tasks.Task SaveAllChangesAsync() {
-            return base.Channel.SaveAllChangesAsync();
+        public System.Threading.Tasks.Task SaveAllChangesAsync(Todo.Core.Domain.Todo[] todos) {
+            return base.Channel.SaveAllChangesAsync(todos);
         }
     }
 }

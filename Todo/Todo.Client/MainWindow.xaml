@@ -24,6 +24,7 @@
         <Button Grid.Row="2" Grid.Column="1" Content="Delete" FontSize="16" Margin="5 10 10 10" />
         <DataGrid 
             CanUserDeleteRows="True"
+            IsReadOnly="True"
             IsSynchronizedWithCurrentItem="True"
             CanUserAddRows="True"
             AutoGenerateColumns="False"
